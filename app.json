@@ -9,6 +9,9 @@
     },
     "icon": "./assets/icon.png",
     "name": "testProject",
-    "slug": "testProject"
+    "slug": "testProject",
+    "web": {
+      "bundler": "metro"
+    }
   }
 }

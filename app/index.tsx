@@ -21,7 +21,7 @@ export default function Home() {
         space="$4"
         maxWidth={600}
       >
-        <H1 textAlign="center">Welcome to Tamagui.</H1>
+        <H1 textAlign="center">Welcome to AAAA.</H1>
         <Paragraph textAlign="center">
           Here&apos;s a basic starter to show navigating from one screen to
           another.
@@ -33,6 +33,9 @@ export default function Home() {
           Go to user page
         </Button>
         <Button onPress={() => router.push("/tabs")}>Go to tabs page</Button>
+        <Button onPress={() => router.push("/devices")}>
+          Go to device list
+        </Button>
       </YStack>
 
       <YStack space="$5">
@@ -85,6 +88,7 @@ export default function Home() {
           </YGroup.Item>
         </YGroup>
       </YStack>
+
     </MyStack>
   );
 }

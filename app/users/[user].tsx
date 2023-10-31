@@ -29,7 +29,7 @@ export default function User() {
 
       <DialogDemo />
       <SelectDemo />
-      <SpinnerDemo />
+      {/* <SpinnerDemo /> */}
       <SwitchDemo />
     </MyStack>
   );
